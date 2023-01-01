@@ -1,0 +1,64 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#212c57;
+    height:100vh;
+   
+}
+
+.subContainer{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    background-color: #172253;
+    width:85vw;
+    height:75vh;
+    border-radius: 15px;
+    font-family:  'Roboto';
+    font-size: 20px;
+}
+
+
+
+.count{
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-size: 50px;
+
+}
+
+.buttonsContainer{
+    display:flex;
+    justify-content: center;
+}
+
+button{
+    background-color:#227C70;
+    border: none;
+    margin-right:2%;
+    margin-left:2%;
+    color:white;
+    font-weight: 700;
+    width:200px;
+    height:50px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+button:hover{
+
+    background-color:#a5a5a5;
+    cursor:pointer;
+}
+
